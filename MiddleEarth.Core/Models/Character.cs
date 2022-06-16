@@ -13,8 +13,8 @@ namespace MiddleEarth.Core.Models
         public int RaceId { get; set; }
         public Race Race { get; set; }
 
-        public int RealmsId { get; set; }
-        public Realms Realms { get; set; }
+        public int RealmId { get; set; }
+        public Realm Realm { get; set; }
 
         public int CharacterClassId { get; set; }
         public CharacterClass CharacterClass { get; set; }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MiddleEarth.Core.Models
 {
-    public class Realms:BaseEntity
+    public class Realm:BaseEntity
     {
         public string Name { get; set; }
         public ICollection<Character> Characters { get; set; }
