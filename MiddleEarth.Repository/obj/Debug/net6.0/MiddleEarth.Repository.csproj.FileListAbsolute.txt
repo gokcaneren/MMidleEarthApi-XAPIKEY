@@ -1,0 +1,12 @@
+C:\Users\Gok\Desktop\c# console proje\MMidleEarthApi\MiddleEarth.Repository\bin\Debug\net6.0\MiddleEarth.Repository.deps.json
+C:\Users\Gok\Desktop\c# console proje\MMidleEarthApi\MiddleEarth.Repository\bin\Debug\net6.0\MiddleEarth.Repository.dll
+C:\Users\Gok\Desktop\c# console proje\MMidleEarthApi\MiddleEarth.Repository\bin\Debug\net6.0\MiddleEarth.Repository.pdb
+C:\Users\Gok\Desktop\c# console proje\MMidleEarthApi\MiddleEarth.Repository\obj\Debug\net6.0\MiddleEarth.Repository.csproj.AssemblyReference.cache
+C:\Users\Gok\Desktop\c# console proje\MMidleEarthApi\MiddleEarth.Repository\obj\Debug\net6.0\MiddleEarth.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gok\Desktop\c# console proje\MMidleEarthApi\MiddleEarth.Repository\obj\Debug\net6.0\MiddleEarth.Repository.AssemblyInfoInputs.cache
+C:\Users\Gok\Desktop\c# console proje\MMidleEarthApi\MiddleEarth.Repository\obj\Debug\net6.0\MiddleEarth.Repository.AssemblyInfo.cs
+C:\Users\Gok\Desktop\c# console proje\MMidleEarthApi\MiddleEarth.Repository\obj\Debug\net6.0\MiddleEarth.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Gok\Desktop\c# console proje\MMidleEarthApi\MiddleEarth.Repository\obj\Debug\net6.0\MiddleEarth.Repository.dll
+C:\Users\Gok\Desktop\c# console proje\MMidleEarthApi\MiddleEarth.Repository\obj\Debug\net6.0\refint\MiddleEarth.Repository.dll
+C:\Users\Gok\Desktop\c# console proje\MMidleEarthApi\MiddleEarth.Repository\obj\Debug\net6.0\MiddleEarth.Repository.pdb
+C:\Users\Gok\Desktop\c# console proje\MMidleEarthApi\MiddleEarth.Repository\obj\Debug\net6.0\ref\MiddleEarth.Repository.dll
