@@ -21,6 +21,8 @@ namespace MiddleEarth.Core.Models
 
         public ICollection<Weapon> Weapons { get; set; }
 
+        public string ImageUrl { get; set; }
+
         public CharacterFeature CharacterFeature { get; set; }
     }
 }
