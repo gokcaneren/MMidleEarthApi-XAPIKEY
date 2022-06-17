@@ -19,8 +19,7 @@ namespace MiddleEarth.Core.Models
         public int CharacterClassId { get; set; }
         public CharacterClass CharacterClass { get; set; }
 
-        public int WeaponId { get; set; }
-        public Weapon Weapon { get; set; }
+        public ICollection<Weapon> Weapons { get; set; }
 
         public CharacterFeature CharacterFeature { get; set; }
     }
