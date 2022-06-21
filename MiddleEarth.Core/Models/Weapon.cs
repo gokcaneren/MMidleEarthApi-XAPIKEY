@@ -9,7 +9,7 @@ namespace MiddleEarth.Core.Models
     public class Weapon:BaseEntity
     {
         public string Name { get; set; }
-        public string Description { get; set; }
+        public string? Description { get; set; }
         public ICollection<Character> Characters { get; set; }
     }
 }
