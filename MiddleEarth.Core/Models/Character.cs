@@ -16,9 +16,6 @@ namespace MiddleEarth.Core.Models
         public int RealmId { get; set; }
         public Realm Realm { get; set; }
 
-        public int CharacterClassId { get; set; }
-        public CharacterClass CharacterClass { get; set; }
-
         public ICollection<Weapon> Weapons { get; set; }
 
         public string ImageUrl { get; set; }

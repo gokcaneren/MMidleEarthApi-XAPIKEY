@@ -19,7 +19,6 @@ namespace MiddleEarth.Repository
         public DbSet<Race> Races { get; set; }
         public DbSet<Realm> Realms { get; set; }
         public DbSet<Weapon> Weapons { get; set; }
-        public DbSet<CharacterClass> CharacterClasses { get; set; }
         public DbSet<CharacterFeature> characterFeatures { get; set; }
 
     }

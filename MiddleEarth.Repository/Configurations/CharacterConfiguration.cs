@@ -19,7 +19,6 @@ namespace MiddleEarth.Repository.Configurations
 
             builder.HasOne(r => r.Race).WithMany(c => c.Characters).HasForeignKey(c => c.RaceId);
             builder.HasOne(r => r.Realm).WithMany(c => c.Characters).HasForeignKey(c => c.RealmId);
-            builder.HasOne(c => c.CharacterClass).WithMany(c=>c.Characters).HasForeignKey(c => c.CharacterClassId);
 
             builder.HasMany(w => w.Weapons).WithMany(c => c.Characters);
         }
