@@ -12,7 +12,7 @@ namespace MiddleEarth.Core.Models
         public string Sex { get; set; }
         public int Height { get; set; }
         public string Eyes { get; set; }
-
+        public string Hair { get; set; }
         public int CharacterId { get; set; }
         public Character Character { get; set; }
     }
