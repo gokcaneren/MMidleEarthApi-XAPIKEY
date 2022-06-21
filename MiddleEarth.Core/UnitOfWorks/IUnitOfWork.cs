@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MiddleEarth.Core.UnitOfWorks
 {
-    public interface IUnitOfWokr
+    public interface IUnitOfWork
     {
         Task CommitAsync();
         void Commit();
