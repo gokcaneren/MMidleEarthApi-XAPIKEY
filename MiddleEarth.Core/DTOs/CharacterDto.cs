@@ -13,6 +13,6 @@ namespace MiddleEarth.Core.DTOs
         public string ImageUrl { get; set; }
         public int RaceId { get; set; }
         public int? RealmId { get; set; }
-        public ICollection<Weapon> Weapons { get; set; }
+        public ICollection<WeaponDto> Weapons { get; set; }
     }
 }
