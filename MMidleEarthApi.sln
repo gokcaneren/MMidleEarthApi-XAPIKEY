@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMidleEarthApi", "MMidleEarthApi\MMidleEarthApi.csproj", "{D33B8D5B-9139-493D-BC61-431EDE4B8511}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MMidleEarthApi", "MMidleEarthApi\MMidleEarthApi.csproj", "{D33B8D5B-9139-493D-BC61-431EDE4B8511}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiddleEarth.Core", "MiddleEarth.Core\MiddleEarth.Core.csproj", "{8C3BC3C9-FA4E-40E3-8F14-80B0D8EE5BCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiddleEarth.Core", "MiddleEarth.Core\MiddleEarth.Core.csproj", "{8C3BC3C9-FA4E-40E3-8F14-80B0D8EE5BCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiddleEarth.Repository", "MiddleEarth.Repository\MiddleEarth.Repository.csproj", "{B3E8296B-8263-454D-87CB-E90CC2C201DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiddleEarth.Repository", "MiddleEarth.Repository\MiddleEarth.Repository.csproj", "{B3E8296B-8263-454D-87CB-E90CC2C201DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiddleEarth.Service", "MiddleEarth.Service\MiddleEarth.Service.csproj", "{970DCF69-4114-4B80-AAA9-6F5B059AB7F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{B3E8296B-8263-454D-87CB-E90CC2C201DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3E8296B-8263-454D-87CB-E90CC2C201DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3E8296B-8263-454D-87CB-E90CC2C201DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{970DCF69-4114-4B80-AAA9-6F5B059AB7F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{970DCF69-4114-4B80-AAA9-6F5B059AB7F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{970DCF69-4114-4B80-AAA9-6F5B059AB7F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{970DCF69-4114-4B80-AAA9-6F5B059AB7F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
