@@ -1,7 +1,13 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using MiddleEarth.Core.Repositories;
+using MiddleEarth.Core.Services;
+using MiddleEarth.Core.UnitOfWorks;
 using MiddleEarth.Repository;
+using MiddleEarth.Repository.Repositories;
+using MiddleEarth.Repository.UnitOfWorks;
 using MiddleEarth.Service.Mapping;
+using MiddleEarth.Service.Services;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +18,10 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+builder.Services.AddScoped(typeof(IService<>), typeof(CharacterService<>));
 
 builder.Services.AddAutoMapper(typeof(MapProfile));
 

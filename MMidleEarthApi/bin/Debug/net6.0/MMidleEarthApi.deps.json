@@ -9,6 +9,7 @@
       "MMidleEarthApi/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "6.0.6",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
           "MiddleEarth.Repository": "1.0.0",
           "MiddleEarth.Service": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"
