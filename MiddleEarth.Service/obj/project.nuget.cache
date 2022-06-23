@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "D46wcGtRHejj25ahnR5Acz/EtrMr3UtpYPv5tHb03TmuwbxL8sBb/3OkpIezqMDsv6XQGGEiO8dPvEpgLExz9A==",
+  "dgSpecHash": "d7Iz1kC+ITIEXpp3lJjOW4RUFuYfIf6zZtpFRUv/AzvdJY4ksAcM1uO6jy7XG9UtuGUUu8nVB8MaPsAbJLSpQA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gok\\Desktop\\c# console proje\\MMidleEarthApi\\MiddleEarth.Service\\MiddleEarth.Service.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Gok\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Gok\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\Gok\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\Gok\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Gok\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Gok\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\Gok\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.6\\microsoft.entityframeworkcore.6.0.6.nupkg.sha512",

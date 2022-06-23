@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MiddleEarth.Repository\MiddleEarth.Repository.csproj" />
+    <ProjectReference Include="..\MiddleEarth.Service\MiddleEarth.Service.csproj" />
   </ItemGroup>
 
 </Project>
