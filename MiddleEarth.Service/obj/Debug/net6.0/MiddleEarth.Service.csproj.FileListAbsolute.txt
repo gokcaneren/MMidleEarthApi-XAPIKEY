@@ -10,3 +10,8 @@ C:\Users\Gok\Desktop\c# console proje\MMidleEarthApi\MiddleEarth.Service\obj\Deb
 C:\Users\Gok\Desktop\c# console proje\MMidleEarthApi\MiddleEarth.Service\obj\Debug\net6.0\refint\MiddleEarth.Service.dll
 C:\Users\Gok\Desktop\c# console proje\MMidleEarthApi\MiddleEarth.Service\obj\Debug\net6.0\MiddleEarth.Service.pdb
 C:\Users\Gok\Desktop\c# console proje\MMidleEarthApi\MiddleEarth.Service\obj\Debug\net6.0\ref\MiddleEarth.Service.dll
+C:\Users\Gok\Desktop\c# console proje\MMidleEarthApi\MiddleEarth.Service\bin\Debug\net6.0\MiddleEarth.Core.dll
+C:\Users\Gok\Desktop\c# console proje\MMidleEarthApi\MiddleEarth.Service\bin\Debug\net6.0\MiddleEarth.Repository.dll
+C:\Users\Gok\Desktop\c# console proje\MMidleEarthApi\MiddleEarth.Service\bin\Debug\net6.0\MiddleEarth.Repository.pdb
+C:\Users\Gok\Desktop\c# console proje\MMidleEarthApi\MiddleEarth.Service\bin\Debug\net6.0\MiddleEarth.Core.pdb
+C:\Users\Gok\Desktop\c# console proje\MMidleEarthApi\MiddleEarth.Service\obj\Debug\net6.0\MiddleEarth.Service.csproj.CopyComplete
