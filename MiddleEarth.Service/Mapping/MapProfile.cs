@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using MiddleEarth.Core.DTOs;
 using MiddleEarth.Core.DTOs.Requests;
+using MiddleEarth.Core.DTOs.Respons;
 using MiddleEarth.Core.Models;
 using System;
 using System.Collections.Generic;
@@ -20,6 +21,7 @@ namespace MiddleEarth.Service.Mapping
             CreateMap<Weapon, WeaponDto>().ReverseMap();
             CreateMap<CharacterFeature, CharacterFeatureDto>().ReverseMap();
             CreateMap<CharacterUpdateDto, Character>();
+            CreateMap<Character, CharacterWithRaceDto>();
         }
     }
 }
