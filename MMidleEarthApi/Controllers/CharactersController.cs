@@ -9,8 +9,6 @@ using MiddleEarth.Core.Services;
 
 namespace MMidleEarthApi.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
     public class CharactersController : CustomBaseController
     {
         private readonly IMapper _mapper;

@@ -4,7 +4,8 @@ using MiddleEarth.Core.DTOs.Respons;
 
 namespace MMidleEarthApi.Controllers
 {
-    
+    [Route("api/[controller]")]
+    [ApiController]
     public class CustomBaseController : ControllerBase
     {
 
