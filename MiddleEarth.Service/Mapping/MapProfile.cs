@@ -22,6 +22,7 @@ namespace MiddleEarth.Service.Mapping
             CreateMap<CharacterFeature, CharacterFeatureDto>().ReverseMap();
             CreateMap<CharacterUpdateDto, Character>();
             CreateMap<Character, CharacterWithRaceDto>();
+            CreateMap<Race, RaceWithCharactersDto>();
         }
     }
 }
