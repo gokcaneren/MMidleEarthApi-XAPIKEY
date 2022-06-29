@@ -12,14 +12,12 @@ namespace MMidleEarthApi.Controllers
     public class CharactersController : CustomBaseController
     {
         private readonly IMapper _mapper;
-        private readonly IService<Character> _service;
-        private readonly ICharacterService _characterService;
+        private readonly ICharacterService _service;
 
         public CharactersController(IService<Character> service, IMapper mapper, ICharacterService characterService)
         {
-            _service = service;
             _mapper = mapper;
-            _characterService = characterService;
+            _service = characterService;
         }
 
         [HttpGet]
@@ -41,7 +39,7 @@ namespace MMidleEarthApi.Controllers
         [HttpGet("[action]")]
         public async Task<IActionResult> GetCharactersWithRace()
         {
-            return CreateActionResult(await _characterService.GetCharacterWithRace());
+            return CreateActionResult(await _service.GetCharacterWithRace());
         }
 
         [HttpPost]
