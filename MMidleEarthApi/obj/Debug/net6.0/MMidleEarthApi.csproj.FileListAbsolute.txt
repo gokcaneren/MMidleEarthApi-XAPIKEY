@@ -67,3 +67,6 @@ C:\Users\Gok\Desktop\c# console proje\MMidleEarthApi\MMidleEarthApi\bin\Debug\ne
 C:\Users\Gok\Desktop\c# console proje\MMidleEarthApi\MMidleEarthApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Gok\Desktop\c# console proje\MMidleEarthApi\MMidleEarthApi\bin\Debug\net6.0\MiddleEarth.Service.dll
 C:\Users\Gok\Desktop\c# console proje\MMidleEarthApi\MMidleEarthApi\bin\Debug\net6.0\MiddleEarth.Service.pdb
+C:\Users\Gok\Desktop\c# console proje\MMidleEarthApi\MMidleEarthApi\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\Gok\Desktop\c# console proje\MMidleEarthApi\MMidleEarthApi\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\Gok\Desktop\c# console proje\MMidleEarthApi\MMidleEarthApi\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
