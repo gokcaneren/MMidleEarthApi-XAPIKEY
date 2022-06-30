@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MiddleEarth.Core.DTOs
 {
-    public class RealmWiithCharactersDto:RealmDto
+    public class RealmWithCharactersDto:RealmDto
     {
         public List<CharacterDto> Characters { get; set; }
     }
