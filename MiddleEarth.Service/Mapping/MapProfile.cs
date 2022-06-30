@@ -24,6 +24,7 @@ namespace MiddleEarth.Service.Mapping
             CreateMap<Character, CharacterWithRaceDto>();
             CreateMap<Race, RaceWithCharactersDto>();
             CreateMap<Realm, RealmWithCharactersDto>();
+            CreateMap<Weapon, WeaponWithCharactersDto>();
         }
     }
 }
