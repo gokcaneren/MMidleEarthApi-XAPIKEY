@@ -14,7 +14,7 @@ namespace MMidleEarthApi.Controllers
         }
 
         [HttpGet("[action]/{raceId}")]
-        public async Task<IActionResult> GetSingleRaceByIdWithCharactersAsync(int raceId)
+        public async Task<IActionResult> GetSingleRaceByIdWithCharacters(int raceId)
         {
             return CreateActionResult(await _raceService.GetSingleRaceByIdWithCharactersAsync(raceId));
         }

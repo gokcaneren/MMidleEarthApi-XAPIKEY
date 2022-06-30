@@ -29,6 +29,9 @@ builder.Services.AddScoped<ICharacterService, CharacterService>();
 builder.Services.AddScoped<IRaceRepository, RaceRepository>();
 builder.Services.AddScoped<IRaceService, RaceService>();
 
+builder.Services.AddScoped<IRealmRepository, RealmRepository>();
+builder.Services.AddScoped<IRealmService, RealmService>();
+
 builder.Services.AddAutoMapper(typeof(MapProfile));
 
 builder.Services.AddDbContext<AppDbContext>(x =>
