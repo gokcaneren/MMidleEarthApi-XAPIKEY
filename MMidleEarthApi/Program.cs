@@ -1,4 +1,5 @@
 using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using MiddleEarth.Core.Repositories;
@@ -10,14 +11,21 @@ using MiddleEarth.Repository.UnitOfWorks;
 using MiddleEarth.Service.Mapping;
 using MiddleEarth.Service.Services;
 using MiddleEarth.Service.Validations;
+using MMidleEarthApi.Filters;
+using MMidleEarthApi.Milddlewares;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers().AddFluentValidation(
+builder.Services.AddControllers(opt => opt.Filters.Add(new ValidateFilterAttribute())).AddFluentValidation(
     x=>x.RegisterValidatorsFromAssemblyContaining<CharacterDtoValidator>());
+
+builder.Services.Configure<ApiBehaviorOptions>(opt =>
+{
+    opt.SuppressModelStateInvalidFilter = true;
+});
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 
@@ -60,6 +68,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCustomException();
 
 app.UseAuthorization();
 
