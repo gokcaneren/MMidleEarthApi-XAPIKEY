@@ -1,3 +1,4 @@
+using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using MiddleEarth.Core.Repositories;
@@ -8,14 +9,18 @@ using MiddleEarth.Repository.Repositories;
 using MiddleEarth.Repository.UnitOfWorks;
 using MiddleEarth.Service.Mapping;
 using MiddleEarth.Service.Services;
+using MiddleEarth.Service.Validations;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddFluentValidation(
+    x=>x.RegisterValidatorsFromAssemblyContaining<CharacterDtoValidator>());
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
