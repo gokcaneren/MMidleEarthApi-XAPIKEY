@@ -6,6 +6,7 @@ using MiddleEarth.Core.DTOs.Requests;
 using MiddleEarth.Core.DTOs.Respons;
 using MiddleEarth.Core.Models;
 using MiddleEarth.Core.Services;
+using MMidleEarthApi.Filters;
 
 namespace MMidleEarthApi.Controllers
 {
@@ -28,6 +29,7 @@ namespace MMidleEarthApi.Controllers
             return CreateActionResult(CustomResponsDto<List<CharacterDto>>.Success(200, charactersDtos));
         }
 
+        [ServiceFilter(typeof(NotFoundFilter<Character>))]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
@@ -57,6 +59,7 @@ namespace MMidleEarthApi.Controllers
             return CreateActionResult(CustomResponsDto<NoContentDto>.Success(204));
         }
 
+        [ServiceFilter(typeof(NotFoundFilter<Character>))]
         [HttpDelete("{id}")]
         public async Task<IActionResult> Remove(int id)
         {
