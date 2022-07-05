@@ -1,3 +1,4 @@
+using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Mvc;
@@ -14,6 +15,7 @@ using MiddleEarth.Service.Services;
 using MiddleEarth.Service.Validations;
 using MMidleEarthApi.Filters;
 using MMidleEarthApi.Milddlewares;
+using MMidleEarthApi.Modules;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -35,22 +37,6 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped(typeof(NotFoundFilter<>));
 
-builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
-builder.Services.AddScoped(typeof(IService<>), typeof(Service<>));
-
-builder.Services.AddScoped<ICharacterRepository, CharacterRepository>();
-builder.Services.AddScoped<ICharacterService, CharacterService>();
-
-builder.Services.AddScoped<IRaceRepository, RaceRepository>();
-builder.Services.AddScoped<IRaceService, RaceService>();
-
-builder.Services.AddScoped<IRealmRepository, RealmRepository>();
-builder.Services.AddScoped<IRealmService, RealmService>();
-
-builder.Services.AddScoped<IWeaponRepository, WeaponRepository>();
-builder.Services.AddScoped<IWeaponService, WeaponService>();
-
 builder.Services.AddAutoMapper(typeof(MapProfile));
 
 builder.Services.AddDbContext<AppDbContext>(x =>
@@ -62,6 +48,8 @@ builder.Services.AddDbContext<AppDbContext>(x =>
 });
 
 builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
+builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder =>
+containerBuilder.RegisterModule(new RepoServiceModule()));
 
 
 var app = builder.Build();
