@@ -2,6 +2,7 @@
 using MiddleEarth.Core.Repositories;
 using MiddleEarth.Core.Services;
 using MiddleEarth.Core.UnitOfWorks;
+using MiddleEarth.Service.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -50,6 +51,10 @@ namespace MiddleEarth.Service.Services
         public async Task<T> GetByIdAsync(int id)
         {
             var hasCharacter=await _repository.GetByIdAsync(id);
+            if (hasCharacter==null)
+            {
+                throw new NotFoundException($"{typeof(T).Name}({id}) does not found!");
+            }
             return hasCharacter;
         }
 
