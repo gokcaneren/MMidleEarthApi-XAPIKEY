@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "JeQ5Fua2Dy3M4Qj3CBfGiNS4XPJiRvuzA/tkh2dn08x30I5zX5SqAY97UhTLbmkqMsctqLpfe2zNkSZuTW6Dlw==",
+  "dgSpecHash": "vmQU/733NkrnL3o4EfIGqqslGg/cFXLtWKkaM2cMFhr2WorhvxYjt+r1CSTrfWkJUgEC1b7YBtqusR7hxXoqEw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gok\\Desktop\\c# console proje\\MMidleEarthApi\\MMidleEarthApi\\MMidleEarthApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Gok\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
+    "C:\\Users\\Gok\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\Gok\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\Gok\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\Gok\\.nuget\\packages\\fluentvalidation\\11.1.0\\fluentvalidation.11.1.0.nupkg.sha512",
